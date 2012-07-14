@@ -14,7 +14,7 @@
 ----------------------------------------- */
 
 #nav-container { width: 1000px; max-width: 100%; min-width: 768px; margin: 0 auto; }
-hr {margin: 10px 0px;}
+/*hr {margin: 10px 0px;}*/
 
 .hero-image {
   -moz-box-shadow:    3px 3px 5px 6px #ccc;
@@ -22,6 +22,13 @@ hr {margin: 10px 0px;}
   box-shadow:         3px 3px 5px 6px #ccc;
   margin-top: 30px;
   height: 240px;
+  border: 4px solid white;
+}
+
+.image-border {
+  -moz-box-shadow:    3px 3px 5px 6px #ccc;
+  -webkit-box-shadow: 3px 3px 5px 6px #ccc;
+  box-shadow:         3px 3px 5px 6px #ccc;
   border: 4px solid white;
 }
 
@@ -177,3 +184,14 @@ color: #00AAF0;
   margin-top: 120px;
   color: white;
 }
+
+
+/* About us */
+
+dl.tabs.vertical { height: auto; border-bottom: 1px solid #e6e6e6; }
+dl.tabs.vertical dt, dl.tabs.vertical dd { float: none; height: auto; }
+dl.tabs.vertical dd { border-left: 3px solid #cccccc; }
+dl.tabs.vertical dd a { background: #f2f2f2; border: none; border: 1px solid #e6e6e6; border-width: 1px 1px 0 0; color: #555; display: block; font-size: 14px; height: auto; line-height: 1; padding: 15px 20px; -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset; -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset; box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset; }
+dl.tabs.vertical dd.active { margin-top: 0; border-top: 1px solid #4d4d4d; border-left: 4px solid #1a1a1a; }
+dl.tabs.vertical dd.active a { background: #4d4d4d; border: none; color: #fff; height: auto; margin: 0; position: static; top: 0; -webkit-box-shadow: 0 0 0; -moz-box-shadow: 0 0 0; box-shadow: 0 0 0; }
+dl.tabs.vertical dd:first-child a.active { margin: 0; }
