@@ -14,7 +14,7 @@
 ----------------------------------------- */
 
 #nav-container { width: 1000px; max-width: 100%; min-width: 768px; margin: 0 auto; }
-/*hr {margin: 10px 0px;}*/
+hr {margin: 10px 0px;}
 
 .hero-image {
   -moz-box-shadow:    3px 3px 5px 6px #ccc;
@@ -132,6 +132,14 @@ margin-bottom: 0px;
   position:relative; 
   top:12px; 
   font-size:28px;
+}
+
+.date .tba{
+  width:100%; 
+  text-align:center; 
+  position:relative; 
+  top:24px; 
+  font-size:20px;
 }
 
 .boxnewsletter {
