@@ -151,6 +151,20 @@ color: #00AAF0;
 }
 
 /* -----------------------------------------
-   Page Name 2
+   core.html
 ----------------------------------------- */
 
+.core-header {
+  height: 300px;
+  background: url('../images/core.jpg') no-repeat center center fixed;;
+  width: 100%;
+  /*-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;*/
+}
+
+.core-header-text {
+  margin-top: 100px;
+  color: white;
+}
