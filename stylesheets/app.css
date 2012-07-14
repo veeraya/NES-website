@@ -23,7 +23,11 @@ hr {margin: 10px 0px;}
   margin-top: 30px;
   height: 240px;
   border: 4px solid white;
+}
 
+.content-wrapper {
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 /* -----------------------------------------
    Index.html
