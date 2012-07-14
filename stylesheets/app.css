@@ -156,8 +156,9 @@ color: #00AAF0;
 
 .core-header {
   height: 300px;
-  background: url('../images/core.jpg') no-repeat center center fixed;;
+  background: url('../images/core.jpg') no-repeat center center;
   width: 100%;
+  margin-bottom: 30px;
   /*-webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
