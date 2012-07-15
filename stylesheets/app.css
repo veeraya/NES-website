@@ -35,6 +35,9 @@ hr {margin: 10px 0px;}
 .content-wrapper {
   padding-top: 30px;
   padding-bottom: 30px;
+/*    background: url('../images/brillant.png') repeat;
+  overflow: hidden;
+  border-bottom: solid 1px #dce1e4;*/
 }
 
 .center {
