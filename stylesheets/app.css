@@ -181,7 +181,6 @@ color: #00AAF0;
   height: 300px;
   background: url('../images/core.jpg') no-repeat center center;
   width: 100%;
-  margin-bottom: 30px;
   /*-webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -193,6 +192,26 @@ color: #00AAF0;
   color: white;
 }
 
+.core-row {
+  height: 350px;
+  padding: 50px 0px;
+  background: white;
+}
+
+.core-row p {
+  color: #5C5C5C;
+  font-size: 16px;
+
+}
+
+.core-row img {
+  max-height: 250px;
+  max-width: 380px;
+}
+
+.gray {
+  background: #dce1e4;
+}
 
 /* About us */
 
