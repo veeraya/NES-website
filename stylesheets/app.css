@@ -33,8 +33,8 @@ hr {margin: 10px 0px;}
 }
 
 .content-wrapper {
-  margin-top: 30px;
-  margin-bottom: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .center {
@@ -196,7 +196,11 @@ color: #00AAF0;
 .core-row {
   height: 350px;
   padding: 50px 0px;
-  background: white;
+  /*background: white;*/
+    background: url('../images/furley_bg.png') repeat;
+  overflow: hidden;
+  border-bottom: solid 1px #dce1e4;
+  
 }
 
 .core-row p {
@@ -211,7 +215,10 @@ color: #00AAF0;
 }
 
 .gray {
-  background: #dce1e4;
+  /*background: #dce1e4;*/
+  background: url('../images/furley_bg1.png') repeat;
+  overflow: hidden;
+  border-bottom: solid 1px #dce1e4;
 }
 
 /* About us */
