@@ -107,8 +107,9 @@ margin-bottom: 0px;
 
 .hero-unit {
   height: 351px;
-  background: url('../images/pattern_bg.gif') repeat-x;
+  background: url('../images/furley_bg.png') repeat;
   overflow: hidden;
+  border-bottom: solid 2px #dce1e4;
 }
 
 .date{
