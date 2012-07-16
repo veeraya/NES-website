@@ -493,7 +493,7 @@ p.vevent abbr { cursor: default; text-decoration: none; font-weight: bold; borde
 .button { width: auto; background: #2ba6cb; border: 1px solid #1e728c; -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset; -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset; box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset; color: white; cursor: pointer; display: inline-block; font-family: "Helvetica Neue", "HelveticaNeue", Helvetica, Arial, "Lucida Grande", sans-serif; font-size: 14px; font-weight: bold; line-height: 1; margin: 0; outline: none; padding: 10px 20px 11px; position: relative; text-align: center; text-decoration: none; -webkit-transition: background-color 0.15s ease-in-out; -moz-transition: background-color 0.15s ease-in-out; -o-transition: background-color 0.15s ease-in-out; transition: background-color 0.15s ease-in-out; /* Hovers */ /* Sizes */ /* Colors */ /* Radii */ /* Layout */ /* Disabled ---------- */ }
 .button:hover { color: white; background-color: #2284a1; }
 .button:active { -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.2) inset; -moz-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.2) inset; box-shadow: 0 1px 0 rgba(0, 0, 0, 0.2) inset; }
-.button:focus { -webkit-box-shadow: 0 0 4px #2ba6cb, 0 1px 0 rgba(255, 255, 255, 0.5) inset; -moz-box-shadow: 0 0 4px #2ba6cb, 0 1px 0 rgba(255, 255, 255, 0.5) inset; box-shadow: 0 0 4px #2ba6cb, 0 1px 0 rgba(255, 255, 255, 0.5) inset; color: white; }
+.button:focus { -webkit-box-shadow: 0 0 4px #2ba6cb, 0 1px 0 rgba(255, 255, 255, 0.5) inset; -moz-box-shadow: 0 0 4px #2ba6cb, 0 1px 0 rgba(255, 255, 255, 0.5) inset; box-shadow: 0 0 4px #2ba6cb, 0 1px 0 rgba(255, 255, 255, 0.5) inset; color: white; } 
 .button.large { font-size: 17px; padding: 15px 30px 16px; }
 .button.medium { font-size: 14px; }
 .button.small { font-size: 11px; padding: 7px 14px 8px; }
@@ -530,7 +530,7 @@ input[type=submit].button, button.button { -webkit-appearance: none; }
   input[type="submit"].large.button { padding: 13px 30px 14px; } }
 
 /* Buttons with Dropdowns ---------------------- */
-.button.dropdown { position: relative; padding-right: 44px; /* Sizes */ /* Triangles */ /* Flyout List */ /* Split Dropdown Buttons */ }
+.button.dropdown { position: relative; padding-right: 44px;   input[type="submit"].small.button /* Sizes */ /* Triangles */ /* Flyout List */ /* Split Dropdown Buttons */ }
 .button.dropdown.large { padding-right: 60px; }
 .button.dropdown.small { padding-right: 28px; }
 .button.dropdown.tiny { padding-right: 20px; }
@@ -688,6 +688,7 @@ ul.flyout li.active, .nav-bar li ul li.active { margin-top: 0; border-top: 1px s
 ul.flyout li.active a, .nav-bar li ul li.active a { background: #4d4d4d; border: none; color: #fff; height: auto; margin: 0; position: static; top: 0; -webkit-box-shadow: 0 0 0; -moz-box-shadow: 0 0 0; box-shadow: 0 0 0; }
 
 /* Mobile Styles */
+/*
 @media only screen and (max-device-width: 1280px) { .touch .nav-bar li.has-flyout > a { padding-right: 36px !important; } }
 @media only screen and (max-width: 1279px) and (min-width: 768px) { .touch .nav-bar li a { font-size: 13px; font-size: 1.3rem; }
   .touch .nav-bar li.has-flyout > a.flyout-toggle { padding: 20px !important; }
@@ -704,6 +705,7 @@ ul.flyout li.active a, .nav-bar li ul li.active a { background: #4d4d4d; border:
   .flyout.right { float: none; right: auto; left: -1px; }
   .flyout.small, .flyout.large { width: 100% !important; }
   .flyout p:last-child { margin-bottom: 18px; } }
+*/
 
 /* Requires globals.css */
 /* Standard Forms ---------------------- */
