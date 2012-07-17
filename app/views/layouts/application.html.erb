@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>NUS Entrepreneurship Society</title>
+  <%= stylesheet_link_tag    "foundation", "app", :media => "all" %>
+  <%= javascript_include_tag "application" %>
+  <%= csrf_meta_tags %>
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,700' rel='stylesheet' type='text/css'>
+</head>
+<body>
+
+  <div id="fb-root"></div>
+        <script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "http://connect.facebook.net/en_US/all.js#xfbml=1&appId=307366639279286";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="http://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+        <script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=307366639279286";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+        <div class="header">
+          <div class="row">
+            <div class="twelve columns">
+              <image src="assets/logo.png"/>
+
+              <div class="social right">
+                <a href="https://twitter.com/nesociety" class="twitter-follow-button" data-show-count="false">Follow @nesociety</a>
+              </div>
+
+              <div class="fb-like social right" data-href="http://www.facebook.com/nusentresoc" data-send="false" data-layout="button_count"  data-show-faces="true"></div>
+            </div>
+          </div>
+        </div>
+
+        <div id="nav-background">
+          <div class="row">
+            <ul class="nav-bar">
+
+              <li>
+                <a href="/">Home</a>
+              </li>
+              <li>
+                <a href="events">Events</a>
+              </li>
+              <li>
+                <a  href="core">CORE</a>
+              </li>
+              <li>
+                <a href="global_project">Global Project</a>
+              </li>
+              <li>
+                <a href="startup_singapore">Start-Up@Singapore</a>
+              </li>
+              <li class="has-flyout">
+                <a href="about_us">About Us</a>
+                <a href="#" class="flyout-toggle">
+                  <span></span>
+                </a>
+                <ul class="flyout">
+                  <li>
+                    <a href="about">NES</a>
+                  </li>
+                  <li>
+                    <a href="stakeholders">Our stakeholders</a>
+                  </li>
+                  <li>
+                    <a href="faq">FAQ</a>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <a href="contact">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+
+<%= yield %>
+
+</body>
+</html>
