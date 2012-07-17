@@ -10,7 +10,7 @@ NES::Application.routes.draw do
 
   match '/startup_singapore' => 'pages#startup_singapore'
 
-  match '/about_us' => 'pages#about_us'
+  match '/about' => 'pages#about_us'
 
   match '/stakeholders' => 'pages#stakeholders'
 

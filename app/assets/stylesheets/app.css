@@ -55,7 +55,7 @@ hr {margin: 10px 0px;}
 .content-wrapper {
   padding-top: 30px;
   padding-bottom: 30px;
-    background: url('../images/brillant.png') repeat;
+    background: url('../assets/brillant.png') repeat;
   overflow: hidden;
   border-bottom: solid 1px #dce1e4;
 }
@@ -94,7 +94,7 @@ img.stakeholder {
   width: 22px;
   height: 37px;
   text-indent: -999999px;
-  background: url(../images/icon_arrow_left.png) no-repeat;
+  background: url(../assets/icon_arrow_left.png) no-repeat;
 }
 
 .hero-unit .bx-next {
@@ -104,7 +104,7 @@ img.stakeholder {
   width: 22px;
   height: 37px;
   text-indent: -999999px;
-  background: url(../images/icon_arrow_right.png) no-repeat;
+  background: url(../assets/icon_arrow_right.png) no-repeat;
 }
 
 .bx-pager{
@@ -136,7 +136,7 @@ margin-bottom: 0px;
 
 .hero-unit {
   height: 351px;
-  background: url('../images/furley_bg.png') repeat;
+  background: url('../assets/furley_bg.png') repeat;
   overflow: hidden;
   border-bottom: solid 2px #dce1e4;
 }
@@ -239,7 +239,7 @@ color: #00AAF0;
 
 .core-header {
   height: 300px;
-  background: url('../images/core.jpg') no-repeat center center;
+  background: url('../assets/core/core.jpg') no-repeat center center;
   width: 100%;
 }
 
@@ -252,7 +252,7 @@ color: #00AAF0;
 .core-row {
   height: 350px;
   padding: 50px 0px;
-  background: url('../images/furley_bg.png') repeat;
+  background: url('../assets/furley_bg.png') repeat;
   overflow: hidden;
   border-bottom: solid 1px #dce1e4;
   
@@ -276,7 +276,7 @@ color: #00AAF0;
 
 .gray {
   /*background: #dce1e4;*/
-  background: url('../images/furley_bg1.png') repeat;
+  background: url('../assets/furley_bg1.png') repeat;
   overflow: hidden;
   border-bottom: solid 1px #dce1e4;
 }
