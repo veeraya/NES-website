@@ -1,2 +1,221 @@
-<h1>Pages#home</h1>
-<p>Find me in app/views/pages/home.html.erb</p>
+        <script src="http://bxslider.com/sites/default/files/jquery.bxSlider.min.js" type="text/javascript"></script>
+
+        <script>
+          $(function(){
+            $('#slider1').bxSlider({
+              auto: true,
+              pager: true
+            });
+            });
+          </script>
+
+<div class="hero-unit">
+          <div class="row">
+            <ul id="slider1">
+              <li>
+                <div class="row">
+                  <div class="five columns">
+                    <div class="hero-item">
+                      <div class="above-title">AY 2012/2013</div>
+                      <h2>Matric Fair</h2>
+                      <p> <i>24-27 July 2013 9AM-5PM at SRC</i>
+                        <br/>
+                        Find our booth at 2012 Matric Fair to have a chat with our friendly NES embassadors! We give out awesome goodie bags too.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="seven columns">
+                    <img src="assets/matricfair.JPG" class="hero-image"/>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="row">
+                  <div class="five columns">
+                    <div class="hero-item">
+                      <div class="above-title">AY 2012/2013</div>
+                      <h2>Welcome Tea</h2>
+                      <p> <i>Date and Venue TBA</i>
+                        <br/>
+                        Find out more about NES and 
+                  your future in the organization. Free dinner provided.
+                        <br/> <b>RSVP link will  be up soon!</b>
+                      </p>
+                    </div>
+                  </div>
+                  <div class="six columns  offset-by-one">
+                    <img src="assets/welcometea.jpg" class="hero-image"/>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- thre columns content-->
+        <div class="content-wrapper">
+          <div class="row">
+            <div class="four columns   ">
+              <h4>Upcoming Events</h4>
+              <div class="row">
+                <div class="three columns">
+                  <div class="date">
+                    <div class="month">JUL</div>
+                    <div class="day">24</div>
+                  </div>
+                </div>
+                <div class="nine columns">
+                  <p> <b>Matric Fair</b>
+
+                    <br/>
+                    24-27 July 2013 9AM-5PM
+                    <br/>
+                    @ SRC
+                  </p>
+                </div>
+              </div>
+              <hr>
+              <div class="row">
+                <div class="three columns">
+                  <div class="date">
+                    <div class="tba">TBA</div>
+                  </div>
+                </div>
+                <div class="nine columns">
+                  <p>
+                    <b>Welcome Tea</b>
+
+                    <br/>
+                    Date and Venue TBA.
+                  </p>
+                </div>
+              </div>
+              <hr>
+              <div class="row">
+                <div class="three columns">
+                  <div class="date">
+                    <div class="tba">TBA</div>
+                  </div>
+                </div>
+                <div class="nine columns">
+                  <p>
+                    <b>NES Induction Camp</b>
+
+                    <br/>
+                    Date and Venue TBA.
+                  </p>
+                </div>
+              </div>
+              <hr>
+              <a href="events.html">See all events</a>
+            </div>
+            <div class="four columns">
+              <h4>What can we do for you?</h4>
+              <b>Want to start a company but don't know where to start?</b>
+              <br/>
+              <br/>
+              We organize
+              <a href="events.html">events</a>
+              to inspire the entrepreneur in you!
+              <br/>
+              <br/>
+              <b>Looking for a co-founder or funding?</b>
+              <br/>
+              <br/>
+              <a href="core.html">NES LINK and Sponsorship</a>
+              can help you.
+              <br/>
+              <br/>
+              <b>Looking for international entreprenerial exposure?</b>
+              <br/>
+              <br/>
+              These
+              <a href="global.html">global projects</a>
+              will definitely vet your interest.
+              <br/>
+              <br/>
+              <b>Interested to join NES?</b>
+              <br/>
+              <br/>
+              <a href="events.html">Check us out at Matric Fair</a>
+              or attend the upcoming welcome tea!
+              <hr></div>
+            <div class="four columns">
+
+              <div class="boxnewsletter">
+
+                <!-- <form>
+                <div class="newsletter-title">
+                  <h4>
+                    Get the news! Suscribe
+                    <br/>
+                    to our newsletter here!
+                  </h4>
+                </div>
+                <label>Name</label>
+                <input type="text"/>
+                <label>Email</label>
+                <input type="text" placeholder="name@gmail.com" />
+                <button class="button">Submit</button>
+
+              </form>
+              -->
+              <form id="form2" name="form2" class="wufoo topLabel page" autocomplete="off" enctype="multipart/form-data" method="post" novalidate
+action="https://pookveeraya.wufoo.com/forms/m7x3q1/#public">
+                <div class="newsletter-title">
+                  <h4>
+                    Get the news! Suscribe
+                    <br/>
+                    to our newsletter here!
+                  </h4>
+                </div>
+
+                <ul class="no-bullet">
+
+                  <li id="foli1" class="notranslate nameField     ">
+                    <label class="desc" id="title1" for="Field1">Name</label>
+                    <div>
+                      <input id="Field1" name="Field1" type="text" class="field text medium" value="" maxlength="271" tabindex="1" onkeyup="" />
+                    </div>
+                  </li>
+                  <li id="foli2" class="notranslate emailField     ">
+                    <label class="desc" id="title2" for="Field2">Email</label>
+                    <div>
+                      <input id="Field2" name="Field2" type="email" spellcheck="false" class="field text medium" value="" maxlength="271" tabindex="2" />
+                    </div>
+                  </li>
+                  <li class="buttons ">
+                    <div>
+
+                      <input id="saveForm" name="saveForm" class="btTxt submit" 
+    type="submit" value="Submit"
+ />
+                    </div>
+                  </li>
+
+                  <li class="hide">
+                    <label for="comment">Do Not Fill This Out</label>
+                    <textarea name="comment" id="comment" rows="1" cols="1"></textarea>
+                    <input type="hidden" id="idstamp" name="idstamp" value="VhHVUcthSiKfCMFMm8XXk7JzRG8PgJPjchJ73DgTorQ=" />
+                  </li>
+                </ul>
+              </form>
+            </div>
+          </div>
+        </div>
+
+        <br/>
+        <br/>
+        <br/>
+        <!-- one column stakeholder -->
+        <div class="row">
+          <div class="twelve  columns">
+            <h4>Our stakeholders</h4>
+            <img class="stakeholder" src="assets/stakeholder/nec logo.png"/>
+            <img class="stakeholder" src="assets/stakeholder/sgentrepreneurs.png"/>
+            <img class="stakeholder" src="assets/stakeholder/soe.png" style="height: 120px; margin: -50px 25px 20px 0px;"/>
+            <img class="stakeholder" src="assets/stakeholder/safra.png"/>
+            <img class="stakeholder" src="assets/stakeholder/garag3.png"/>
+          </div>
+        </div>
+      </div>

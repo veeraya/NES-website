@@ -10,6 +10,14 @@
 // WARNING: THE FIRST BLANK LINE MARKS THE END OF WHAT'S TO BE PROCESSED, ANY BLANK LINE SHOULD
 // GO AFTER THE REQUIRES BELOW.
 //
-//= require jquery
-//= require jquery_ujs
-//= require_tree .
+// require jquery
+// require jquery_ujs
+//= require modernizr.foundation
+//= require jquery.min
+//= require jquery.customforms
+//= require jquery.placeholder.min
+//= require jquery.reveal
+//= require jquery.tooltips
+//= require app.js
+// require_tree .
+//= require_self
