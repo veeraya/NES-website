@@ -25,4 +25,7 @@ class PagesController < ApplicationController
 
   def contact
   end
+
+  def wealthexpo
+  end
 end
