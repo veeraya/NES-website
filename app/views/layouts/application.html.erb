@@ -42,16 +42,16 @@
                 <a href="/">Home</a>
               </li>
               <li>
-                <a href="events">Events</a>
+                <%= link_to "Events", :controller => "pages", :action => "events" %>
               </li>
               <li>
-                <a  href="core">CORE</a>
+                <%= link_to "CORE", :controller => "pages", :action => "core" %>
               </li>
               <li>
-                <a href="global_project">Global Project</a>
+                <%= link_to "Global Project", :controller => "pages", :action => "global_project" %>
               </li>
               <li>
-                <a href="startup_singapore">Start-Up@Singapore</a>
+                <%= link_to "Start-Up@Singapore", :controller => "pages", :action => "startup_singapore" %>
               </li>
               <li class="has-flyout">
                 <a href="about">About Us</a>
@@ -60,13 +60,13 @@
                 </a>
                 <ul class="flyout">
                   <li>
-                    <a href="about">NES</a>
+                    <%= link_to "NES", :controller => "pages", :action => "about_us" %>
                   </li>
                   <li>
-                    <a href="stakeholders">Our stakeholders</a>
+                    <%= link_to "Our stakeholders", :controller => "pages", :action => "stakeholders" %>
                   </li>
                   <li>
-                    <a href="faq">FAQ</a>
+                    <%= link_to "FAQ", :controller => "pages", :action => "faq" %>                  
                   </li>
                 </ul>
               </li>
