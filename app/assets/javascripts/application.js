@@ -19,5 +19,5 @@
 //= require jquery.reveal
 //= require jquery.tooltips
 //= require app.js
-// require_tree .
+//= require googleAnalytics.js
 //= require_self
