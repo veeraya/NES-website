@@ -22,6 +22,8 @@ NES::Application.routes.draw do
 
   match '/events/recruitment2012' => 'pages#recruitment'
 
+  match '/events/welcometea' => 'pages#welcometea'
+
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

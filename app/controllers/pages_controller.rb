@@ -31,4 +31,7 @@ class PagesController < ApplicationController
 
   def recruitment
   end
+
+  def welcometea
+  end
 end
