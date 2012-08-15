@@ -79,7 +79,13 @@ padding-bottom: 20px;
 
 
 img.stakeholder {
-  height: 46px;
+  height: 55px;
+  margin: 0px 25px 20px 0px;
+  vertical-align: middle;
+}
+
+img.stakeholder-landscape {
+  height: 160px;
   margin: 0px 25px 20px 0px;
   vertical-align: middle;
 }
