@@ -37,9 +37,9 @@ hgroup img {
 hr {margin: 10px 0px;}
 
 .hero-image {
-  -moz-box-shadow:    3px 3px 5px 6px #ccc;
-  -webkit-box-shadow: 3px 3px 5px 6px #ccc;
-  box-shadow:         3px 3px 5px 6px #ccc;
+  -moz-box-shadow:    3px 3px 4px 4px #ccc;
+  -webkit-box-shadow: 3px 3px 4px 4px #ccc;
+  box-shadow:         3px 3px 4px 4px #ccc;
   margin-top: 30px;
   height: 240px;
   border: 4px solid white;
@@ -307,4 +307,11 @@ color: #00AAF0;
   box-shadow:         2px 2px 2px 2px #ccc;
   border: 4px solid white;
 }
+
+/* -----------------------------------------
+   global_project.html
+----------------------------------------- */
+
+.slideshow {
+  width: 500px;
 }
