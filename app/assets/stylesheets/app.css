@@ -261,12 +261,11 @@ color: #00AAF0;
 }
 
 .core-row {
-  height: 350px;
+  /*height: 350px;*/
   padding: 50px 0px;
   background: url('../assets/furley_bg.png') repeat;
   overflow: hidden;
   border-bottom: solid 1px #dce1e4;
-  
 }
 
 .core-row.bottom-dashes{
@@ -281,7 +280,7 @@ color: #00AAF0;
 }
 
 .core-row img {
-  max-height: 250px;
+  /*max-height: 250px;*/
   max-width: 380px;
 }
 
