@@ -34,4 +34,13 @@ class PagesController < ApplicationController
 
   def welcometea
   end
+
+  def bizasia
+  end
+
+  def isage
+  end
+
+  def aseanpreneurs
+  end
 end

@@ -2,15 +2,15 @@
 <html>
 <head>
   <title>NUS Entrepreneurship Society</title>
-  <%= stylesheet_link_tag  "application", :media => "all" %>
+  <%= stylesheet_link_tag  "application", :media =>
+  "all" %>
   <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %>
-  <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,700' rel='stylesheet' type='text/css'>
-</head>
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,700' rel='stylesheet' type='text/css'></head>
 <body>
 
   <div id="fb-root"></div>
-        <script>(function(d, s, id) {
+  <script>(function(d, s, id) {
   var js, fjs = d.getElementsByTagName(s)[0];
   if (d.getElementById(id)) return;
   js = d.createElement(s); js.id = id;
@@ -18,70 +18,70 @@
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
 
-        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="http://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+  <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="http://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 
-        <div class="header">
-          <div class="row">
-            <div class="twelve columns">
-              <%= image_tag "logo.png" %>
+  <div class="header">
+    <div class="row">
+      <div class="twelve columns">
+        <%= image_tag "logo.png" %>
 
-              <div class="social right">
-                <a href="https://twitter.com/nesociety" class="twitter-follow-button" data-show-count="false">Follow @nesociety</a>
-              </div>
-
-              <div class="fb-like social right" data-href="http://www.facebook.com/nusentresoc" data-send="false" data-layout="button_count"  data-show-faces="true"></div>
-            </div>
-          </div>
+        <div class="social right">
+          <a href="https://twitter.com/nesociety" class="twitter-follow-button" data-show-count="false">Follow @nesociety</a>
         </div>
 
-        <div id="nav-background">
-          <div class="row">
-            <ul class="nav-bar">
+        <div class="fb-like social right" data-href="http://www.facebook.com/nusentresoc" data-send="false" data-layout="button_count"  data-show-faces="true"></div>
+      </div>
+    </div>
+  </div>
 
-              <li>
-                <a href="/">Home</a>
-              </li>
-              <li class="has-flyout">
-                <a href="about">About Us</a>
-                <a href="#" class="flyout-toggle">
-                  <span></span>
-                </a>
-                <ul class="flyout">
-                  <li>
-                    <%= link_to "NES", :controller => "pages", :action => "about_us" %>
-                  </li>
-                  <li>
-                    <%= link_to "Our stakeholders", :controller => "pages", :action => "stakeholders" %>
-                  </li>
-                  <li>
-                    <%= link_to "FAQ", :controller => "pages", :action => "faq" %>                  
-                  </li>
-                </ul>
-              </li>
-              <li>
-                <%= link_to "Sign up", :controller => "pages", :action => "recruitment" %>
-              </li>
-              <li>
-                <%= link_to "Events", :controller => "pages", :action => "events" %>
-              </li>
-              <li>
-                <%= link_to "CORE", :controller => "pages", :action => "core" %>
-              </li>
-              <li>
-                <%= link_to "Global Project", :controller => "pages", :action => "global_project" %>
-              </li>
-              <li>
-                <%= link_to "Start-Up@Singapore", :controller => "pages", :action => "startup_singapore" %>
-              </li>
-              <li>
-                <%= link_to "Contact Us", :controller => "pages", :action => "contact" %>
-              </li>
-            </ul>
-          </div>
-        </div>
+  <div id="nav-background">
+    <div class="row">
+      <ul class="nav-bar">
 
+        <li>
+          <a href="/">Home</a>
+        </li>
+        <li class="has-flyout">
+          <a href="about">About Us</a>
+          <a href="#" class="flyout-toggle">
+            <span></span>
+          </a>
+          <ul class="flyout">
+            <li>
+              <%= link_to "NES", :controller =>"pages", :action => "about_us" %></li>
+            <li>
+              <%= link_to "Our stakeholders", :controller =>"pages", :action => "stakeholders" %></li>
+            <li>
+              <%= link_to "FAQ", :controller =>"pages", :action => "faq" %></li>
+          </ul>
+        </li>
+        <li>
+          <%= link_to "Sign up", :controller =>"pages", :action => "recruitment" %></li>
+        <li>
+          <%= link_to "Events", :controller =>"pages", :action => "events" %></li>
+        <li>
+          <%= link_to "CORE", :controller =>"pages", :action => "core" %></li>
+        <li class="has-flyout">
+          <a href="#">Global Project</a>
+          <a href="#" class="flyout-toggle">
+            <span></span>
+          </a>
+          <ul class="flyout">
+            <li>
+              <%= link_to "ASEANpreneurs", :controller =>"pages", :action => "aseanpreneurs" %></li>
+            <li>
+              <%= link_to "BizAsia", :controller =>"pages", :action => "bizasia" %></li>
+            <li>
+              <%= link_to "ISAGE", :controller =>"pages", :action => "isage" %></li>
+          </ul>
+        </li>
+        <li>
+          <%= link_to "Start-Up@Singapore", :controller =>"pages", :action => "startup_singapore" %></li>
+        <li>
+          <%= link_to "Contact Us", :controller =>"pages", :action => "contact" %></li>
+      </ul>
+    </div>
+  </div>
 
-<%= yield %>
-
-</body>
+  <%= yield %></body>
 </html>

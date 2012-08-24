@@ -8,6 +8,12 @@ NES::Application.routes.draw do
 
   match '/global_project' => 'pages#global_project'
 
+  match '/isage' => 'pages#isage'
+
+  match '/aseanpreneurs' => 'pages#aseanpreneurs'
+
+  match '/bizasia' => 'pages#bizasia'
+
   match '/startup_singapore' => 'pages#startup_singapore'
 
   match '/about' => 'pages#about_us'

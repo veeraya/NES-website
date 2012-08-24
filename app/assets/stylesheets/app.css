@@ -33,6 +33,14 @@ hgroup img {
   margin: 20px 0px 0px 0px;
 }
 
+hgroup a {
+  color: #222;
+}
+
+hgroup a:hover{
+  color: #222;
+}
+
 #nav-container { width: 1000px; max-width: 100%; min-width: 768px; margin: 0 auto; }
 hr {margin: 10px 0px;}
 
