@@ -79,10 +79,10 @@ padding-bottom: 20px;
 /* -----------------------------------------
    Index.html
 ----------------------------------------- */
-.header {
-    height: auto !important;
-    min-height: 90px;
-    margin: 20px 0px 0px 0px;
+
+img.header{
+  margin: 120px 0px 0px 20px;
+  height: 64px !important;
 }
 
 
