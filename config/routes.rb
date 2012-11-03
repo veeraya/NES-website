@@ -24,6 +24,8 @@ NES::Application.routes.draw do
 
   match '/contact' => 'pages#contact'
 
+  match '/winterinternship2012' => 'pages#winterinternship'
+
   match '/events/wealthexpo' => 'pages#wealthexpo'
 
   match '/events/recruitment2012' => 'pages#recruitment'

@@ -29,6 +29,9 @@ class PagesController < ApplicationController
   def wealthexpo
   end
 
+  def winterinternship
+  end
+
   def recruitment
   end
 
