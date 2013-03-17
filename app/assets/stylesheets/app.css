@@ -13,6 +13,10 @@
    Shared Styles
 ----------------------------------------- */
 
+.header {
+  padding-top: 20px;
+}
+
 hgroup h1 {
   text-shadow: 1px 1px gray;
 }
@@ -216,6 +220,10 @@ color: #00AAF0;
 .hero-item .above-title{
   font-size: 18px;
   margin-bottom: -10px;
+}
+
+.hero-item .above-image-title{
+  font-size: 18px;
 }
 
 .bx-wrapper {
