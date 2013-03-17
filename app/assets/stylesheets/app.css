@@ -92,9 +92,9 @@ img.stakeholder {
   vertical-align: middle;
 }
 
-img.stakeholder-landscape {
+img.stakeholder-portrait {
   height: 160px;
-  margin: 0px 25px 20px 0px;
+  margin: -45px 25px 20px 0px;
   vertical-align: middle;
 }
 .social {
